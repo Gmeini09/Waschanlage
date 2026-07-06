@@ -1,0 +1,16 @@
+Aufgabe: Waschanlage
+
+Vor einer Autowaschanlage gibt es regelmäßig eine Schlange an Autos, die gewaschen werden sollen.
+Es soll nun ein Programm entwickelt werden, welches diese Warteschlange verwaltet.
+
+Aus Erfahrungsgründen und aus Platzgründen sind nie mehr als 10 Autos in dieser Schlange.
+Ein neu hinzukommendes Auto soll sich am Ende der Schlange anstellen, solange noch Platz ist.
+Wenn das erste Auto in die Anlage einfahren darf, sollen alle wartenden Autos automatisch aufrücken.
+Autos können jederzeit die Schlange verlassen und wieder nach Hause fahren.
+
+Anforderungen:
+- Modellieren Sie eine geeignete Klasse Auto.
+- Modellieren Sie eine geeignete Klasse Warteschlange.
+- Verwenden Sie zum Verwalten der Autos eine Liste.
+- Erstellen Sie eine Konsolen-Applikation mit Menü.
+- Erweiterung: automatische Abarbeitung der Liste mittels Thread/Runnable.
